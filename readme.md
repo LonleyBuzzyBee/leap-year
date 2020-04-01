@@ -18,9 +18,10 @@ _This website was designed to entertain the user, and help calculate if a specif
 
 | Behavior | Input | Output |
 |---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| the program should return when a year is not a leap year | 1993 | false |
+| the program should return'true' for years divisible by 4 | 2004 | true |
+| this program should return false for years divisible by 100 | 1900 | false |
+| the program should return true for years divisible by 400 | 2000 | true |
 
 ## Setup/Installation Requirements
 
