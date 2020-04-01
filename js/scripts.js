@@ -1,6 +1,9 @@
 // business logic
-function myFunc(){
-  
+function myFunc(year){
+
+  if ( year % 4 === 0)  {
+    $("#result").text("true");
+  }
 }
 
 
