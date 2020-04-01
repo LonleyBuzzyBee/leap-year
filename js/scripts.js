@@ -1,15 +1,14 @@
 // business logic
 function myFunc(year){
 
-  if ( year % 4 === 0)  {
-    $("#result").text("true");
+  if ( year % 4 === 0 && year % 400 === 0 )  {
+    $("#result").text("True");
+  } else if ( year % 4 !== 0 ) {
+    $("#result").text("False");
+  } else {
+    $("#result").text("False");
   }
 }
-
-
-
-
-
 
 
 
